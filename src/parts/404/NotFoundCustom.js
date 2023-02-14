@@ -17,7 +17,7 @@ export default function NotFoundCustom() {
             oops! The page you <br /> requested was not found!
           </p>
           <p className="text-xl text-primary">
-            Sorry, But the page you are looking for does't exist!
+            Sorry, But the page you are looking for does&apos;t exist!
           </p>
           <Button className={"mt-5 text-white"}>
             <Link href={"/"}>Back to Home</Link>
@@ -25,8 +25,13 @@ export default function NotFoundCustom() {
         </div>
       </div>
       <div className="absolute h-full w-full bg-white opacity-80"></div>
-      <div className="relative h-full w-full -z-10 ">
-        <Image src="/images/headerbg.avif" objectFit="cover" layout="fill" alt="notfound" />
+      <div className="relative -z-10 h-full w-full ">
+        <Image
+          src="/images/headerbg.avif"
+          objectFit="cover"
+          layout="fill"
+          alt="notfound"
+        />
       </div>
     </div>
   );
