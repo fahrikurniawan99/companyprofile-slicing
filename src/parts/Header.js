@@ -23,7 +23,7 @@ export default function Header({ variant }) {
         refHeaderContainer.current?.classList.remove("bg-primary");
       });
     };
-  }, [refHeaderContainer, isOpen]);
+  }, [refHeaderContainer.current, isOpen]);
 
   return (
     <div
