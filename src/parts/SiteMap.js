@@ -29,6 +29,7 @@ export default function SiteMap() {
                 layout="fill"
                 src="/images/headerbg.avif"
                 objectFit="cover"
+                alt="recent-1"
               />
             </div>
             <p className="ml-5 leading-relaxed text-white">
@@ -41,6 +42,7 @@ export default function SiteMap() {
                 layout="fill"
                 src="/images/image-2.jpg"
                 objectFit="cover"
+                alt="recent-2"
               />
             </div>
             <p className="ml-5 leading-relaxed text-white">

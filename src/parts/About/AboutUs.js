@@ -17,6 +17,7 @@ export default function AboutUs() {
               layout="fill"
               objectFit="fill"
               className="rounded-3xl shadow-lg"
+              alt="thumbnail-1"
             />
             <p className="absolute top-20 left-0 inline-flex items-center rounded-r-xl bg-primary/20 p-10">
               <span className="text-5xl font-bold text-primary">25+</span>
@@ -25,16 +26,12 @@ export default function AboutUs() {
               </span>
             </p>
           </div>
-          {/* <img
-            src="/images/quotesbg.jpg"
-
-            className="absolute bottom-0 aspect-video w-[240px] rounded-xl shadow-xl"
-          /> */}
           <Image
             src="/images/quotesbg.jpg"
             width={240}
             height={240}
             className="absolute bottom-0 rounded-xl shadow-xl"
+            alt="thumbnail-2"
           />
         </div>
         <div className="md:ml-10 md:w-6/12 mt-10 md:mt-0">

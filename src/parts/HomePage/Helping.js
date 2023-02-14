@@ -28,9 +28,6 @@ export default function Helping() {
           >
             more <ChevronRightIcon className="w-4 stroke-2" />
           </Button>
-          {/* <button className="mt-5 flex w-fit items-center justify-center rounded-full border-2 border-orange-600 px-5 py-2 font-medium text-primary">
-            more <ChevronRightIcon className="w-4 stroke-2" />
-          </button> */}
         </div>
         <div className="h-full gap-5 space-y-5 overflow-hidden rounded-lg bg-gray-100 p-5 md:flex md:w-9/12 md:space-y-0 mt-10 md:mt-0">
           <div className="h-full px-5 py-2 md:w-3/12">

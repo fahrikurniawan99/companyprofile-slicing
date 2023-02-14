@@ -17,19 +17,40 @@ export default function OurWork() {
               layout="fill"
               objectFit="cover"
               src="/images/headerbg.avif"
+              alt="thumb-1"
             />{" "}
           </div>
           <div className="relative col-span-6 row-span-2 overflow-hidden rounded-3xl md:col-span-5 md:row-span-4">
-            <Image layout="fill" objectFit="cover" src="/images/image-1.avif" />{" "}
+            <Image
+              layout="fill"
+              objectFit="cover"
+              src="/images/image-1.avif"
+              alt="thumb-2"
+            />{" "}
           </div>
           <div className="relative col-span-6 row-span-2 overflow-hidden rounded-3xl md:col-span-3 md:row-span-4">
-            <Image layout="fill" objectFit="cover" src="/images/image-2.jpg" />{" "}
+            <Image
+              layout="fill"
+              objectFit="cover"
+              src="/images/image-2.jpg"
+              alt="thumb-3"
+            />{" "}
           </div>
           <div className="relative col-span-6 row-span-3 overflow-hidden rounded-3xl md:col-span-4 md:row-span-3">
-            <Image layout="fill" objectFit="cover" src="/images/image-3.jpg" />{" "}
+            <Image
+              layout="fill"
+              objectFit="cover"
+              src="/images/image-3.jpg"
+              alt="thumb-4"
+            />{" "}
           </div>
           <div className="relative col-span-6 row-span-2 overflow-hidden rounded-3xl md:col-span-8 md:row-span-2">
-            <Image layout="fill" objectFit="cover" src="/images/quotesbg.jpg" />{" "}
+            <Image
+              layout="fill"
+              objectFit="cover"
+              src="/images/quotesbg.jpg"
+              alt="thumb-4"
+            />{" "}
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ export default function Description() {
               src={"/images/image-1.avif"}
               layout="fill"
               objectFit="cover"
+              alt="desc-1"
             />
           </div>
           <div className="relative col-span-3 row-span-3 overflow-hidden rounded-xl bg-gray-200">
@@ -17,6 +18,7 @@ export default function Description() {
               layout="fill"
               objectFit="cover"
               src={"/images/image-2.jpg"}
+              alt="desc-2"
             />
           </div>
           <div className="relative col-span-3 row-span-1 overflow-hidden rounded-xl bg-gray-200">
@@ -24,6 +26,7 @@ export default function Description() {
               layout="fill"
               objectFit="cover"
               src={"/images/image-3.jpg"}
+              alt="desc-3"
             />
           </div>
         </div>

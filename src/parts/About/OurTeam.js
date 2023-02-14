@@ -20,6 +20,7 @@ export default function OurTeam() {
                     src="/images/member-1.jpg"
                     layout="fill"
                     objectFit="cover"
+                    alt="team-1"
                   />
                 </div>
                 <div className="m-7 border-l-4 border-orange-600 pl-2">
@@ -35,6 +36,7 @@ export default function OurTeam() {
                     src="/images/member-2.jpg"
                     layout="fill"
                     objectFit="cover"
+                    alt="team-2"
                   />
                 </div>
                 <div className="m-7 border-l-4 border-white pl-2">
@@ -50,6 +52,7 @@ export default function OurTeam() {
                     src="/images/member-3.jpg"
                     layout="fill"
                     objectFit="cover"
+                    alt="team-3"
                   />
                 </div>
                 <div className="m-7 border-l-4 border-orange-600 pl-2">

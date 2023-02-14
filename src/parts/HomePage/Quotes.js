@@ -13,7 +13,7 @@ export default function Quotes() {
         the future through of efforts expertise.
       </p>
       <div className="absolute h-full w-full bg-orange-600 opacity-70"></div>
-      <Image src="/images/quotesbg.jpg" layout="fill" objectFit="cover" className="-z-30" />
+      <Image src="/images/quotesbg.jpg" layout="fill" objectFit="cover" className="-z-30" alt="quotes" />
     </div>
   );
 }

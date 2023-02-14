@@ -26,7 +26,7 @@ export default function NotFoundCustom() {
       </div>
       <div className="absolute h-full w-full bg-white opacity-80"></div>
       <div className="relative h-full w-full -z-10 ">
-        <Image src="/images/headerbg.avif" objectFit="cover" layout="fill" />
+        <Image src="/images/headerbg.avif" objectFit="cover" layout="fill" alt="notfound" />
       </div>
     </div>
   );

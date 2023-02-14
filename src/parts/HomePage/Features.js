@@ -15,6 +15,7 @@ export default function Features() {
         fill="cover"
         objectFit="cover"
         className="-z-40"
+        alt="features-thumb"
       />
       <div className="absolute -z-30 h-full w-full bg-primary/90 md:w-1/2"></div>
       <div className="mx-auto max-w-6xl px-5 pt-20">
