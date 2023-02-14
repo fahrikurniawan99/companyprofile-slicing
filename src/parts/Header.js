@@ -8,22 +8,22 @@ export default function Header({ variant }) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    console.log(isOpen);
+    const refForwardHeaderContainer = refHeaderContainer.current;
     window.addEventListener("scroll", (e) => {
-      if (refHeaderContainer.current && window.scrollY > 100) {
-        return refHeaderContainer.current?.classList.add("bg-primary");
+      if (refForwardHeaderContainer && window.scrollY > 100) {
+        return refForwardHeaderContainer?.classList.add("bg-primary");
       }
-      refHeaderContainer.current?.classList.remove("bg-primary");
+      refForwardHeaderContainer?.classList.remove("bg-primary");
     });
     return () => {
       window.removeEventListener("scroll", (e) => {
-        if (refHeaderContainer.current && window.scrollY > 100) {
-          return refHeaderContainer.current?.classList.add("bg-primary");
+        if (refForwardHeaderContainer && window.scrollY > 100) {
+          return refForwardHeaderContainer?.classList.add("bg-primary");
         }
-        refHeaderContainer.current?.classList.remove("bg-primary");
+        refForwardHeaderContainer?.classList.remove("bg-primary");
       });
     };
-  }, [refHeaderContainer.current, isOpen]);
+  }, [refHeaderContainer, isOpen]);
 
   return (
     <div
